@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #222222;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#logo {
+    padding: 8px 0px 8px 20px;
+}
+
+.navegador ul{
+    list-style: none;
+    padding: 0 30px; 
+    display: flex;
+}
+
+.navegador ul li{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.lista {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.lista li {
+    color: #fff;
+    padding: 8px;
+}
+
+footer {
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 35px;
+}
+
+section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+article {
+    position: relative;
+}
+
+.caja {
+    width: 500px;
+    height: 480px;
+    border: 2px;
+    padding: 0;
+    margin: 25px;
+    display: inline-block;
+    background-color: #F3F3F3;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#img-card {
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+}
+
+#text-card-imagen {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    color: #FC200C;
+    position: absolute;
+    top: 35px;
+    left: 85px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h3, h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+span {
+    color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+    .caja {
+        width: 370px;
+        height: 350px;
+    }
+  }
